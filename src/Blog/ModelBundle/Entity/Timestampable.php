@@ -3,6 +3,8 @@
 namespace Blog\ModelBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 
 /**
@@ -26,6 +28,8 @@ abstract class Timestampable{
      */
     public function __construct()
     {
+//        parent::__construct();
+
         $this->createdAt = new \DateTime();
     }
 
