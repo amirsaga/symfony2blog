@@ -1,4 +1,5 @@
-my_project
-==========
+Blog creation:
+---------------
 
-A Symfony project created on September 22, 2015, 8:23 am.
+Testing blog module with symfony.
+Following TDD method for application development.
