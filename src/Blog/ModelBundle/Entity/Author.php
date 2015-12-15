@@ -10,7 +10,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  * Author
  *
  * @ORM\Table()
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Blog\ModelBundle\Repository\AuthorRepository")
  */
 class Author extends Timestampable
 {
